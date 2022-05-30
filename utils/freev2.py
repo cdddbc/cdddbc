@@ -8,10 +8,10 @@ sites=[
         "sub":"https://feiniaoyun.tk/api/v1/client/subscribe?token={token}"
     },
     {
-        "name":"waiqi",
-        "url":"https://waiqi.xyz/",
-        "reg_url":"https://waiqi.xyz/api/v1/passport/auth/register",
-        "sub":"https://waiqi.xyz/api/v1/client/subscribe?token={token}"
+        "name":"blackhole",
+        "url":"https://blackholeservices.com/",
+        "reg_url":"https://blackholeservices.com/api/v1/passport/auth/register",
+        "sub":"https://hd.cdnsub.me/api/v1/client/subscribe?token={token}"
     },
     {
         "name":"ckcloud",
@@ -20,18 +20,13 @@ sites=[
         "sub":"https://www.ckcloud.xyz/api/v1/client/subscribe?token={token}"
     },
     {
-        "name":"blackhole",
-        "url":"https://blackholeservices.com/",
-        "reg_url":"https://blackholeservices.com/api/v1/passport/auth/register",
-        "sub":"https://hd.cdnsub.me/api/v1/client/subscribe?token={token}"
-    },
-    {
         "name":"v2b",
         "url":"https://v2b.areulike.top/",
         "reg_url":"https://v2b.areulike.top/api/v1/passport/auth/register",
         "sub":"https://sub.areulike.top/api/v1/client/subscribe?token={token}"
     }
 ]
+
 class tempsite():
     def __init__(self,site):
         self.reg_url=site["reg_url"]
@@ -70,7 +65,7 @@ class tempsite():
                 break
             except:
                 v2conf=""
-        with open("./cdd1/"+self.name,"w") as f:
+        with open("./sub/myslef/"+self.name,"w") as f:
                     f.write(v2conf)
 
 def getconf():
