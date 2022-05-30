@@ -83,7 +83,7 @@ class tempsite():
                 break
             except:
                 v2conf=""
-        with open("./freev2/"+self.name,"w") as f:
+        with open("./cdd1/"+self.name,"w") as f:
                     f.write(v2conf)
 
 def getconf():
