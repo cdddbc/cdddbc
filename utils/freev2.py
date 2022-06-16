@@ -23,7 +23,7 @@ sites=[
         "name":"rocket",
         "url":"https://rocketcloud.xyz/",
         "reg_url":"https://rocketcloud.xyz/api/v1/passport/auth/register",
-        "sub":"https://rocket-sub.ddnsnode.com/api/v1/client/subscribe?token={token}"
+        "sub":"https://8rkt.xyz/api/v1/client/subscribe?token={token}"
     },
     {
         "name":"giao",
