@@ -21,7 +21,7 @@ sites=[
     },
     {
         "name":"rocket",
-        "url":"https://58rocket.com",
+        "url":"https://58rocket.com/",
         "reg_url":"https://58rocket.com/api/v1/passport/auth/register",
         "sub":"https://8rkt.xyz/api/v1/client/subscribe?token={token}"
     },
