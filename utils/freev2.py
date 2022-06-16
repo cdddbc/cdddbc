@@ -38,12 +38,6 @@ sites=[
         "sub":"https://hd.cdnsub.me/api/v1/client/subscribe?token={token}"
     },
     {
-        "name":"v2b",
-        "url":"https://v2b.areulike.top/",
-        "reg_url":"https://v2b.areulike.top/api/v1/passport/auth/register",
-        "sub":"https://sub.areulike.top/api/v1/client/subscribe?token={token}"
-    },
-    {
         "name":"circlecloud123",
         "url":"https://circlecloud123.com/",
         "reg_url":"https://circlecloud123.com/api/v1/passport/auth/register",
