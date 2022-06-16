@@ -5,7 +5,7 @@ on:
   schedule:
     # - cron: '*/20 0-23 * * *'
     # 表达式生成  https://crontab.guru/
-    - cron: '*/20 0-23 * * *'
+    - cron: '*/20 0-15 * * *'
   workflow_dispatch:
 
 env: # 设置环境变量
