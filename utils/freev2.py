@@ -84,7 +84,7 @@ class tempsite():
         url=self.getSubscribe()
         for k in range(3):
             try:
-                req=requests.get(url,timeout=5)
+                req=requests.get(url,timeout=20)
                 v2conf=req.text
                 break
             except:
