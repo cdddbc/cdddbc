@@ -37,6 +37,12 @@ sites=[
         "reg_url":"https://blackholeservices.com/api/v1/passport/auth/register",
         "sub":"https://hd.cdnsub.me/api/v1/client/subscribe?token={token}"
     },
+        {
+        "name":"kelecloud",
+        "url":"https://my.kelecloud.xyz/",
+        "reg_url":"https://my.kelecloud.xyz/api/v1/passport/auth/register",
+        "sub":"https://sub5.kelecloud.xyz/api/v1/client/subscribe?token={token}"
+    },
     {
         "name":"circlecloud123",
         "url":"https://circlecloud123.com/",
