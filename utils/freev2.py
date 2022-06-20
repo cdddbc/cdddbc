@@ -28,7 +28,7 @@ sites=[
     {
         "name":"giao",
         "url":"https://giaoyun.xyz/",
-        "reg_url":"https://giaoyun.xyz/api/v1/passport/auth/register",
+        "reg_url":"https://giaoyun.xyz/#/register",
         "sub":"https://giaoyun.xyz/api/v1/client/subscribe?token={token}"
     },
     {
