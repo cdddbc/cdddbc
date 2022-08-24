@@ -35,7 +35,7 @@ sites=[
         "name":"blackhole",
         "url":"https://blackholeservices.com/",
         "reg_url":"https://blackholeservices.com/api/v1/passport/auth/register",
-        "sub":"https://hd.cdnsub.me/api/v1/client/subscribe?token={token}"
+        "sub":"https://subs.hdapi.work/api/v1/client/subscribe?token={token}"
     },
         {
         "name":"kelecloud",
